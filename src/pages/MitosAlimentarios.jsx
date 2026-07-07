@@ -135,6 +135,64 @@ export default function MitosAlimentarios() {
           </button>
         </div>
       </div>
+
+      {/* Recommendations & Preparation Section */}
+      <section className="w-full max-w-4xl mt-xl border-t border-surface-variant/40 pt-xl">
+        <div className="bg-surface-container-lowest rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0px_4px_30px_rgba(0,0,0,0.06)] transition-shadow duration-300 p-md md:p-lg flex flex-col gap-md">
+          <div className="flex items-center gap-sm border-b border-surface-variant pb-sm">
+            <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>calendar_clock</span>
+            <h2 className="font-headline-md text-headline-md text-on-surface">Cómo prepararte para tu primera consulta</h2>
+          </div>
+          <p className="font-body-md text-body-md text-on-surface-variant">
+            Nuestros profesionales colaboradores están para escucharte, no para juzgarte. Aquí tienes algunos consejos prácticos para que tu primera experiencia sea lo más cómoda, humana y provechosa posible:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-md mt-sm">
+            {/* Tip 1 */}
+            <div className="flex items-start gap-sm p-sm bg-surface-container rounded-lg">
+              <div className="bg-secondary-container text-on-secondary-container p-xs rounded-full flex-shrink-0">
+                <span className="material-symbols-outlined text-[20px]">medical_information</span>
+              </div>
+              <div>
+                <h3 className="font-label-md text-label-md text-on-surface mb-[2px]">Análisis previos</h3>
+                <p className="font-label-sm text-label-sm text-on-surface-variant">Si tienes estudios de laboratorio recientes (de los últimos 6 meses), llévalos. Ayudan a entender tu contexto de salud actual.</p>
+              </div>
+            </div>
+            
+            {/* Tip 2 */}
+            <div className="flex items-start gap-sm p-sm bg-surface-container rounded-lg">
+              <div className="bg-tertiary-container text-on-tertiary-container p-xs rounded-full flex-shrink-0">
+                <span className="material-symbols-outlined text-[20px]">edit_note</span>
+              </div>
+              <div>
+                <h3 className="font-label-md text-label-md text-on-surface mb-[2px]">Anota tus dudas</h3>
+                <p className="font-label-sm text-label-sm text-on-surface-variant">Es normal olvidarse de cosas en el momento. Lleva un pequeño listado de preguntas, hábitos o molestias que desees conversar.</p>
+              </div>
+            </div>
+            
+            {/* Tip 3 */}
+            <div className="flex items-start gap-sm p-sm bg-surface-container rounded-lg">
+              <div className="bg-primary-container text-on-primary-container p-xs rounded-full flex-shrink-0">
+                <span className="material-symbols-outlined text-[20px]">psychology</span>
+              </div>
+              <div>
+                <h3 className="font-label-md text-label-md text-on-surface mb-[2px]">Mente abierta</h3>
+                <p className="font-label-sm text-label-sm text-on-surface-variant">No existen los "alimentos prohibidos" ni las metas inalcanzables. Ven con ganas de iniciar un proceso gradual y saludable.</p>
+              </div>
+            </div>
+            
+            {/* Tip 4 */}
+            <div className="flex items-start gap-sm p-sm bg-surface-container rounded-lg">
+              <div className="bg-secondary-fixed text-on-secondary-fixed p-xs rounded-full flex-shrink-0">
+                <span className="material-symbols-outlined text-[20px]">self_improvement</span>
+              </div>
+              <div>
+                <h3 className="font-label-md text-label-md text-on-surface mb-[2px]">Comodidad y honestidad</h3>
+                <p className="font-label-sm text-label-sm text-on-surface-variant">Relájate, es una charla de conocimiento mutuo. La honestidad es la clave para diseñar un plan que realmente encaje en tu rutina diaria.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

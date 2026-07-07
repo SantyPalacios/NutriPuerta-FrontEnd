@@ -9,17 +9,17 @@ export default function Layout() {
             NutriPuerta
           </div>
           <nav className="hidden md:flex items-center gap-md">
-            <Link to="/bmi" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
-              BMI Calculator
+            <Link to="/calculator" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
+              Calculadora
             </Link>
             <Link to="/myths" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
-              Food Myths
+              Mitos y Consejos
             </Link>
-            <Link to="/register" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
-              Register
+            <Link to="/professionals" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
+              Profesionales
             </Link>
-            <Link to="/recommendation" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
-              Plan
+            <Link to="/contact" className="font-label-md text-label-md text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 active:scale-95 transition-transform">
+              Enviar Consulta
             </Link>
           </nav>
           <button className="md:hidden text-primary">
@@ -36,18 +36,21 @@ export default function Layout() {
             NutriPuerta
           </div>
           <nav className="flex flex-wrap justify-center gap-md">
-            <a href="#" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
-              Privacidad
-            </a>
-            <a href="#" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
-              Términos
-            </a>
-            <a href="#" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
-              Contacto
-            </a>
+            <Link to="/calculator" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
+              Calculadora
+            </Link>
+            <Link to="/myths" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
+              Mitos y Consejos
+            </Link>
+            <Link to="/professionals" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
+              Profesionales
+            </Link>
+            <Link to="/contact" className="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100">
+              Enviar Consulta
+            </Link>
           </nav>
           <div className="font-label-sm text-label-sm text-secondary dark:text-secondary-fixed-dim text-center md:text-right">
-            © 2024 NutriPuerta. Nutrición gentil para una vida plena.
+            © 2026 NutriPuerta. Nutrición gentil para una vida plena.
           </div>
         </div>
       </footer>
