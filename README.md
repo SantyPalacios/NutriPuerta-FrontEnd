@@ -49,7 +49,7 @@ NutriPuerta no es solo una calculadora, es una **puerta de entrada a la educaci�
 
 ### 1. Clonar el repositorio e instalar dependencias:
 ```bash
-git clone https://github.com/tu-usuario/NutriPuerta-FrontEnd.git
+git clone https://github.com/SantyPalacios/NutriPuerta-FrontEnd.git
 cd NutriPuerta-FrontEnd
 npm install
 ```
@@ -64,6 +64,10 @@ VITE_API_URL=http://localhost:3000
 # En producción (apunta a tu backend desplegado en Render)
 # VITE_API_URL=https://nutripuerta-backend.onrender.com
 ```
+
+> ⚠️ **En Vercel**, esta variable no alcanza con ponerla en un `.env` local: hay que cargarla en el dashboard (Settings → Environment Variables) para el ambiente Production, y luego hacer un **redeploy** — Vite la incluye en el bundle en build time, no en runtime.
+
+**Demo en producción**: https://nutripuerta.vercel.app
 
 ### 3. Scripts Disponibles:
 
@@ -83,4 +87,4 @@ VITE_API_URL=http://localhost:3000
 ---
 
 ## 🔗 Repositorio Relacionado
-- **Backend API**: [NutriPuerta-BackEnd](https://github.com/tu-usuario/NutriPuerta-BackEnd) (Servidor Node.js/Express + Nodemailer + Supabase)
+- **Backend API**: [NutriPuerta-BackEnd](https://github.com/SantyPalacios/NutriPuerta-BackEnd) (Servidor Node.js/Express + Nodemailer + Supabase)
